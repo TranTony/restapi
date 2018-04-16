@@ -6,7 +6,7 @@ app.get('/', function (req, res) {
     				  req.connection.remoteAddress;
     var ipList = remoteAddress.split(",");
     var lastProxy = ipList[ipList.length - 1].trim();
-    res.send('etst');
+    res.send(req);
 });
 
 app.listen(process.env.PORT || 80);
