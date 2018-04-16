@@ -1,4 +1,4 @@
-check-external-ip
+Simple RestAPI
 =================
 
-A simple Node.js API to check your external IP address
+
